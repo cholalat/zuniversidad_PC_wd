@@ -31,7 +31,7 @@ print(ce)
 
 reloj = time.perf_counter()
 
-for iteracion in range(1000600):
+for iteracion in range(10006):
     seed = (a * seed + c) % m
     u = seed / m
 
